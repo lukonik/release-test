@@ -1,0 +1,19 @@
+{
+  "name": "release-test",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukonik/release-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukonik/release-test/issues"
+  },
+  "homepage": "https://github.com/lukonik/release-test#readme",
+  "description": ""
+}
