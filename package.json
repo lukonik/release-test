@@ -8,6 +8,9 @@
     "build:move-package": "shx cp package.json dist/",
     "build": "npm run build:js && npm run build:move-package"
   },
+  "files": [
+    "dist/**"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/lukonik/release-test.git"
