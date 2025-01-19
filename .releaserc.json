@@ -5,8 +5,7 @@
         "@semantic-release/changelog",
         "@semantic-release/git",
         ["@semantic-release/npm",{
-          "prepublishOnly":"npm run build",
-          "pkgRoot": "dist/"
+          "prepublishOnly":"npm run build"
         }],
         [
           "@semantic-release/github",
