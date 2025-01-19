@@ -8,13 +8,7 @@
         ["@semantic-release/npm",{
           "pkgRoot": "dist"
           }],
-          [
-            "@semantic-release/exec",
-            {
-              "prepublishOnly":
-                "npm run build"
-            }
-          ],
+         
         [
           "@semantic-release/github",
           {
