@@ -4,11 +4,10 @@
         "@semantic-release/commit-analyzer",
         "@semantic-release/changelog",
         "@semantic-release/git",
-      
         ["@semantic-release/npm",{
+          "prepublishOnly":"npm run build",
           "pkgRoot": "dist"
-          }],
-         
+        }],
         [
           "@semantic-release/github",
           {
