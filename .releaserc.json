@@ -6,7 +6,7 @@
         "@semantic-release/git",
         ["@semantic-release/npm",{
           "prepublishOnly":"npm run build",
-          "pkgRoot": "dist"
+          "pkgRoot": "dist/"
         }],
         [
           "@semantic-release/github",
